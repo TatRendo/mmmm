@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@font-face{
+    font-family: Alata;
+    src: url("Alaba-Regular.ttf");
+}
+
+html body {
+    height: 100%;
+    font-family: Alata;
+}
+
+:root {
+    --primary-color: #011638;
+    --secondary-color: #214E34;
+    --accent1-color: #364156;
+    --accent2-color: #C3C2C2;
+
+    --heading-font: 'Alata', serif;
+    --paragraph-font: 'Alata', serif;
+
+    --nav-background-color: #011638;
+    --nav-link-color: #d3cece;
+    --nav-hover-link-color: #7c7d7e;
+    --nav-hover-background-color: #214E34 ;
+}
+
+header nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin: 0 0 20px;
+}
+
+header a {
+        color: var(--accent2-color);
+        text-decoration: none;
+        margin: 0 50px;
+
+}
+
+.hero{
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 1rem;
+    background-color:  #00000083;
+    width: 97.5%;
+}
+
+.hero article p {
+    display: flex;
+    max-width: 800px;
+}
+
+.hero article img {
+    position: absolute;
+    margin: 0 0 15px 15px;
+    top: 23%;
+    left: 55%;
+    transform: translate(50%);
+    height: auto;
+    width: 360px;
+    padding: 10px;
+   
+    
+}
+
+.hero p{
+    position: absolute;
+    margin: 0 0 15px 15px;
+    top: 35%;
+    left: 5%;
+    transform: translate(0, -50%);
+    color: rgb(255, 255, 255);
+    background-color:  #00000083;
+    padding: 3rem;
+
+}
+
+p {
+  text-align: justify;
+}
+
+/*.hero article img {
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 1px solid rgb(red, green, blue);
+    box-shadow: 0 0 30px #00000083;
+ }
+ .hero p {
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 1px solid rgb(red, green, blue);
+    box-shadow: 0 0 30px #00000083;
+ }*/

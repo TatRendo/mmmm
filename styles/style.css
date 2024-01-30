@@ -1,0 +1,89 @@
+* {
+    margin: 2;
+    padding: 3;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(rgb(128, 255, 0), green, rgb(255, 149, 0), alpha);
+    padding: 2rem;
+    background-color: #c1bfb7;
+    color: rgb(8, 8, 8);
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+nav {
+    background-color: #d7cc94;
+    padding: 10pv;
+} 
+nav a {
+    color: rgb(73, 63, 63);
+    padding: 20px;
+    display: block;
+}
+
+h1 {
+    color: rgb(148, 106, 9);
+}
+
+main img {
+    width: 170px;
+    height: auto;
+    border: 1px solid rgb(148, 106, 9);
+    padding: 2px;
+    box-shadow: 0 0 10px rgb(148, 106, 9);
+    
+}
+p{
+    padding: 10px;
+}
+main{
+    max-width: 850px;
+}
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(148, 106, 9); /*1️⃣ */
+    padding: 1rem;
+    background-color: #fff3b8;
+    color: rgb(148, 106, 9);
+    text-align: center; 
+    position: relative;
+}
+aside img{
+    width: 200px;
+    height: auto;
+    }
+
+aside h2{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    border: 1px solid rgb(198, 198, 198);
+    padding: 2px;
+   
+}
+
+
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+p {padding: 0;}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid rgb(148, 106, 9);
+    text-align: center;
+}
