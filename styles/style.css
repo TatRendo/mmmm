@@ -7,30 +7,57 @@
 /* Class Selectors */
 
 .box {
-    margin: 1rem;
-    border: 1px solid rgba(rgb(128, 255, 0), green, rgb(255, 149, 0), alpha);
+    margin: 0rem;
+    border: 2px solid rgba(rgb(128, 255, 0), green, rgb(255, 149, 0), alpha);
     padding: 2rem;
-    background-color: #c1bfb7;
+    background-color: #c1bab7;
     color: rgb(8, 8, 8);
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+header, footer{
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 aside {
     width: 20em;
-    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 20rem; /*cambia el ancho*/
 }
 
 nav {
     background-color: #d7cc94;
-    padding: 10pv;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    /*menú en horizontal "-----" */
 } 
+
 nav a {
-    color: rgb(73, 63, 63);
-    padding: 20px;
+    padding: 0.15rem;
+    text-decoration: none; /*quita la linea*/
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(73, 63, 63); 
     display: block;
 }
 
 h1 {
     color: rgb(148, 106, 9);
+    border-bottom: 1px solid rgb(148, 106, 9);
+    padding-bottom: 15px;
 }
 
 main img {
@@ -44,34 +71,21 @@ main img {
 p{
     padding: 10px;
 }
-main{
+/*main{
     max-width: 850px;
-}
-aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(148, 106, 9); /*1️⃣ */
-    padding: 1rem;
-    background-color: #fff3b8;
-    color: rgb(148, 106, 9);
-    text-align: center; 
-    position: relative;
-}
+}*/
+
 aside img{
-    width: 200px;
+    width: 250px;
     height: auto;
-    }
+}
 
 aside h2{
     position: absolute;
     top: 40px;
     left: 110px;
-    border: 1px solid rgb(198, 198, 198);
-    padding: 2px;
-   
+    padding: 15px; 
 }
-
-
 
 main img {
     width: 150px;
@@ -87,3 +101,4 @@ footer {
     border-top: 1px solid rgb(148, 106, 9);
     text-align: center;
 }
+
