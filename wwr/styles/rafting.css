@@ -27,21 +27,37 @@ html body {
 
 header nav {
     background-color: var(--primary-color);
-    text-align: center;
+    /*text-align: center;*/
     padding: 20px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 25px;
+    max-width: 10000px;
+    text-align: right;
 }
 
-header img {
+.logo img {
     width: 150px;
     height: auto;
     margin: 0 0 20px;
 }
 
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
 header a {
+        display: block;
         color: var(--accent2-color);
         text-decoration: none;
         margin: 0 50px;
@@ -59,16 +75,13 @@ header a {
     height: auto;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--accent2-color);
-    text-align: center;
-    padding: 1rem;
-    background-color:  #00000083;
+h1{
+    font-size: 2rem;
+    font-family: Alata;
+    background-color:  #00000076;
     width: 97.5%;
+    padding: 20px;
+    margin: 0;
 }
 
 .hero article p {
@@ -89,7 +102,7 @@ header a {
     
 }
 
-.hero p{
+.hero p {
     position: absolute;
     margin: 0 0 15px 15px;
     top: 35%;
@@ -101,19 +114,107 @@ header a {
 
 }
 
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: center;
+    /*text-align: center;*/
+    padding: - Agrega espacio interno alrededor del contenido del elemento
+}
+
+section {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.history.center {
+    flex: 1;
+    text-align: center;
+}
+
+div class.history.center {
+    max-width: 100%;
+}
+
+
+section p{
+    flex: 1;
+    text-align: rif;
+}
+
+.columns.img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    margin-right: 30px;
+}
+
+columns.img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 p {
   text-align: justify;
 }
 
-/*.hero article img {
-    float: right;
-    margin: 0 0 15px 15px;
-    border: 1px solid rgb(red, green, blue);
-    box-shadow: 0 0 30px #00000083;
- }
- .hero p {
-    float: right;
-    margin: 0 0 15px 15px;
-    border: 1px solid rgb(red, green, blue);
-    box-shadow: 0 0 30px #00000083;
- }*/
+footer {
+    display: flex;
+    gap: 15px; /*espacio entre el texto y la imagen*/
+    justify-content: center;
+    align-items: center;
+    max-width: 100%
+}
+
+/*footer nav{
+    gap: 20px
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: none;
+}
+
+
+/*my note
+
+    text-align: center; - Centra el texto dentro de un elemento.
+    background-color: - Establece el color de fondo
+    margin: 1rem auto; - margen externa inferior y superior para elemento horizontal
+    display: grid; - Define un contenedor como una cuadrícula para el diseño
+    grid-template-columns: - Especifica el tamaño de las columnas 
+    display: flex; - Define un contenedor como un contenedor flexible para el diseño.
+    justify-content: center; - coloca el elemento si se quiere central o otro
+    align-items: center; - menú en horizontal
+    flex-wrap: wrap;
+    font-size: 25px; - tamaño letra
+    max-width: 100px; - limita el ancho del elemnto
+    text-align: right; - Alinea el texto a la derecha dentro del elemento
+
+    .hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+    text-align: center;
+    padding: - Agrega espacio interno alrededor del contenido del elemento
+    background-color:  #00000083;
+    width: 97.5%;
+    }*/
