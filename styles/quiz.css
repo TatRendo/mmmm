@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,400;0,900;1,900&display=swap');
+
+@font-face{
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");
+}
+
+html body {
+    height: 100%;
+    font-family: Roboto;
+}
+
