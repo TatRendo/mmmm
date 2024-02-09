@@ -41,7 +41,7 @@ h1 {
 
 #q1,
 #q2,
-#q3-options,
+#q3,
 #q4 {
     width: 100%;
     padding: 10px;
@@ -50,7 +50,9 @@ h1 {
     border: 1px solid #000000b2 ;
 }
 
-/*falta agregar que se separen un poco*/
+label strong{
+    color: rgb(4, 4, 181);
+}
 
 select {
     width: 100%;
