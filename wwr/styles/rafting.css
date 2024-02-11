@@ -27,7 +27,6 @@ html body {
 
 header nav {
     background-color: var(--primary-color);
-    /*text-align: center;*/
     padding: 20px;
     margin: 1rem auto;
     display: grid;
@@ -126,7 +125,7 @@ h1{
     padding: - Agrega espacio interno alrededor del contenido del elemento
 }
 
-section {
+section h2{
     text-align: center;
 }
 
@@ -183,16 +182,42 @@ footer {
     max-width: 100%
 }
 
-/*footer nav{
-    gap: 20px
-    max-width: 100%;
+perfil.img{
+    width: 100px;
     height: auto;
-    margin: 10px;
-    border: none;
+}
+
+form {
+    margin: 0px;
+    padding: 20px;
+    height: 100%; 
+}
+
+label strong{
+    color: var(--primary-color);
+}
+
+#item1,
+#item2,
+#item3,
+button {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(106, 106, 106, 0.536);
+}
+
+button {
+    background-color: var(--accent1-color);
+    color: white;
 }
 
 
-/*my note
+
+
+
+/*my note -------------------------------------------------------------------------------
 
     text-align: center; - Centra el texto dentro de un elemento.
     background-color: - Establece el color de fondo
