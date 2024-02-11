@@ -186,6 +186,12 @@ footer {
     align-items: center;
     max-width: 100%
 }
+
+.sociallinks img{
+    width: 30px;
+    height: auto;
+}
+
 style iframe{
     border: 0;
 }
