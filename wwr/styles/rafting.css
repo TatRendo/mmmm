@@ -156,9 +156,8 @@ section h2{
 }*/
 
 
-section p{
+.section p{
     flex: 1;
-    text-align: rif;
 }
 
 .columns.img {
