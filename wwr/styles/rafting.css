@@ -121,7 +121,6 @@ h1{
     color: var(--accent2-color);
     display: flex;
     justify-content: center;
-    /*text-align: center;*/
     padding: - Agrega espacio interno alrededor del contenido del elemento
 }
 
@@ -176,7 +175,7 @@ p {
 
 footer {
     display: flex;
-    gap: 15px; /*espacio entre el texto y la imagen*/
+    gap: 15px;
     justify-content: center;
     align-items: center;
     max-width: 100%
@@ -216,34 +215,3 @@ button {
     background-color: var(--accent1-color);
     color: white;
 }
-
-
-
-
-
-/*my note -------------------------------------------------------------------------------
-
-    text-align: center; - Centra el texto dentro de un elemento.
-    background-color: - Establece el color de fondo
-    margin: 1rem auto; - margen externa inferior y superior para elemento horizontal
-    display: grid; - Define un contenedor como una cuadrícula para el diseño
-    grid-template-columns: - Especifica el tamaño de las columnas 
-    display: flex; - Define un contenedor como un contenedor flexible para el diseño.
-    justify-content: center; - coloca el elemento si se quiere central o otro
-    align-items: center; - menú en horizontal
-    flex-wrap: wrap;
-    font-size: 25px; - tamaño letra
-    max-width: 100px; - limita el ancho del elemnto
-    text-align: right; - Alinea el texto a la derecha dentro del elemento
-
-    .hero h1 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--accent2-color);
-    text-align: center;
-    padding: - Agrega espacio interno alrededor del contenido del elemento
-    background-color:  #00000083;
-    width: 97.5%;
-    }*/
