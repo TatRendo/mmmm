@@ -181,7 +181,7 @@ footer {
     align-items: center;
     max-width: 100%
 }
-style {
+style iframe{
     border: 0;
 }
 
@@ -203,6 +203,7 @@ label strong{
 #item1,
 #item2,
 #item3,
+#item4,
 button {
     width: 35%;
     padding: 10px;
