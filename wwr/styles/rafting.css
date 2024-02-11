@@ -182,7 +182,7 @@ footer {
     gap: 15px;
     justify-content: center;
     align-items: center;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .sociallinks img{
@@ -211,7 +211,7 @@ label strong{
 
 #item1,
 #item2,
-#item3,,
+#item3,
 button {
     width: 35%;
     padding: 10px;
