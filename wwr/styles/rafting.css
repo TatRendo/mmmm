@@ -226,14 +226,12 @@ button {
     color: white;
 }
 
-
-
-header nav.img{
-    width: 130px;
+.perfil img {
+    width: 350px;
     height: auto;
 }
 
-.perfil img {
-    width: 350px;
+.home img {
+    width: 130px;
     height: auto;
 }
