@@ -51,7 +51,7 @@ header nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 25px;
+    font-size: 30px;
     max-width: 100%;
     text-align: right;
 }
@@ -98,13 +98,80 @@ h1{
 .two::after {
     content: '';
     position: absolute;
-    width: 100%;
-    height: 2px; /* Grosor de la línea */
-    background-color: #000; /* Color de la línea */
+    width: 98%;
+    height: 8px; /* Grosor de la línea */
+    background-color: var(--accent1-color)
     bottom: 0;
-    left: 50%;
+    left: 1%;
     border-bottom: 2px double #000; /* Estilo de la línea: doble */
     z-index: 1;
+}
+
+.option img {
+    width: 150px;
+    max-width: 100%; 
+    border: 8px solid var(--nav-hover-background-color);
+}  
+
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
+}
+
+section h2{
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.Overview::before {
+    content: '';
+    position: absolute;
+    width: 98%;
+    height: 8px; /* Grosor de la línea */
+    background-color: var(--nav-hover-background-color)
+    bottom: 0;
+    left: 1%;
+    border-bottom: 2px double #000; /* Estilo de la línea: doble */
+    z-index: 1;
+}
+
+
+.Overview img{
+    background-color: var(--accent2-color);
+    padding: 80px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Overview a input[type="button"] {
+    background-color: var(--nav-background-color);
+    color: var(--accent2-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Overview a input[type="button"]:hover {
+    background-color: var(--secondary-color);
+}
+
+article {
+    background-color: var(--nav-link-color);
+    padding: 80px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    display: flex;
+    justify-content: center;
+
 }
 
 footer {
