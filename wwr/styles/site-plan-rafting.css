@@ -166,12 +166,32 @@ section h2{
 article {
     background-color: var(--nav-link-color);
     padding: 80px;
-    margin: 0px;
+    margin: 2000px;
     display: grid;
     grid-template-columns: 100px 1fr 2fr;
     display: flex;
     justify-content: center;
+}
 
+.Overview p {
+    position: absolute;
+    margin: 0 0 150px 150px;
+    top: 35%;
+    left: 5%;
+    transform: translate(0, -50%);
+    color: rgb(255, 255, 255);
+    background-color: var(--secondary-color);
+    padding: 3rem;
+}
+
+.Overview article p {
+    display: flex;
+    max-width: 800px;
+}
+
+.Overview{
+    position: relative;
+    overflow: hidden;
 }
 
 footer {
